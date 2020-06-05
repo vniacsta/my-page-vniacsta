@@ -38,7 +38,7 @@ export default function Description() {
         <span role="img" aria-label="travel">
           ✈
         </span>{" "}
-        and Netflixing{" "}
+        , learning languages and Netflixing{" "}
         <span role="img" aria-label="tv">
           🎬
         </span>
