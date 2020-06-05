@@ -13,7 +13,7 @@ export default function App() {
           <img className="my-avatar" src={avatar} alt="Vania Costa" />
           <div className="right">
             <h1>Vânia Costa</h1>
-            <h3>Front-end Engineer | Marketer</h3>
+            <h3>Front-end Developer | Marketer</h3>
           </div>
         </header>
         <section>

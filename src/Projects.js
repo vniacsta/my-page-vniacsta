@@ -2,8 +2,9 @@ import React from "react";
 import "./Projects.css";
 import ProjectsInfo from "./ProjectsInfo";
 import certificate1 from "./media/certificate-workshop.png";
-import certificate2 from "./media/certificate-plus.png";
 import veganpower from "./media/veganpower.png";
+import certificate2 from "./media/certificate-plus.png";
+import certificate3 from "./media/certificate-react.png";
 
 export default function Projects() {
   return (
@@ -39,8 +40,8 @@ export default function Projects() {
         </div>
         <div className="col-sm">
           <ProjectsInfo
-            image=""
-            linkImage=""
+            image={certificate3}
+            linkImage="#"
             name="SheCodes React"
             linkProject="https://react-app-project-vniacsta.netlify.app"
             linkGithub="https://github.com/vniacsta/react-app-project"
