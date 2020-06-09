@@ -41,7 +41,7 @@ export default function Projects() {
         <div className="col-sm">
           <ProjectsInfo
             image={certificate3}
-            linkImage="#"
+            linkImage="https://www.shecodes.io/certificates/85e03c27bd60c5d46e9d288834e0bd8e"
             name="SheCodes React"
             linkProject="https://react-app-project-vniacsta.netlify.app"
             linkGithub="https://github.com/vniacsta/react-app-project"
