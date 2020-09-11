@@ -43,18 +43,17 @@ body {
   }
 }
 
-.App .name {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 100;
-  font-size: 45px;
-  color: #fff;
-  animation: glow 2500ms linear infinite 2000ms;
+.App .my-avatar:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
-@keyframes glow {
-  60% {
-    text-shadow: 0 0 8px #fff;
-  }
+.App .name {
+  font-family: "Rock Salt", cursive;
+  font-weight: 100;
+  font-size: 38px;
+  color: #fff;
 }
 
 .App h3 {
