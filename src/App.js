@@ -3,6 +3,7 @@ import avatar from "./media/avatar.jpeg";
 import "./App.css";
 import Description from "./Description";
 import Projects from "./Projects";
+import Certificates from "./Certificates";
 import SocialMedia from "./SocialMedia";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <section>
           <Description />
           <Projects />
+          <Certificates />
         </section>
         <footer>
           <SocialMedia />
