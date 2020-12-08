@@ -26,7 +26,11 @@ export default function App() {
         <footer>
           <SocialMedia />
           <small>
-            © 2020 · Coded by VniaCsta,{" "}
+            © 2020 · Made with{" "}
+            <span role="img" aria-label="geek">
+              💗
+            </span> 
+            {" "}by VniaCsta,{" "}
             <a
               href="https://github.com/vniacsta/my-page-vniacsta"
               target="_blank"
