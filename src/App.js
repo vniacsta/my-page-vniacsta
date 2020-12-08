@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "./media/avatar.jpeg";
+import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
 import Description from "./Description";
 import Projects from "./Projects";
