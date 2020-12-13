@@ -61,7 +61,7 @@ export default class SwipeToSlide extends Component {
             <ProjectsInfo
               image={certificate4}
               linkImage="https://www.codecademy.com/profiles/vniacsta/certificates/5ddbff3dd1bd3b001397ae9f"
-              name="Codecademy Javascript Certificate"
+              name="Codecademy Phaser.JS Certificate"
               linkProject="https://www.codecademy.com/profiles/vniacsta/certificates/5ddbff3dd1bd3b001397ae9f"
               />
           </div>
