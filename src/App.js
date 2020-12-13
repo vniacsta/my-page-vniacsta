@@ -2,6 +2,7 @@ import React from "react";
 import avatar from "./media/avatar.jpeg";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
+import Games from "./Games";
 import Description from "./Description";
 import Projects from "./Projects";
 import Certificates from "./Certificates";
@@ -19,6 +20,7 @@ export default function App() {
           </div>
         </header>
         <section>
+          <Games />
           <Description />
           <Projects />
           <Certificates />
