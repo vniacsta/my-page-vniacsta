@@ -1,7 +1,5 @@
 .Games {
-  position: absolute;
-  right: 100px;
-  top: 120px;
+  float: right;
   text-align: center;
   animation: shake 1.5s infinite;
 }
