@@ -6,6 +6,7 @@ import certificate1 from "./media/codecademy-js.png";
 import certificate4 from "./media/codecademy-phaser.png";
 import certificate2 from "./media/certificate-plus.png";
 import certificate3 from "./media/certificate-react.png";
+import certificate5 from "./media/codecademy-react.png";
 
 
 export default class SwipeToSlide extends Component {
@@ -55,6 +56,14 @@ export default class SwipeToSlide extends Component {
               linkImage="https://www.codecademy.com/profiles/vniacsta/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
               name="Codecademy Javascript"
               linkProject="https://www.codecademy.com/profiles/vniacsta/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+              />
+          </div>
+          <div>
+            <ProjectsInfo
+              image={certificate5}
+              linkImage="https://www.codecademy.com/profiles/vniacsta/certificates/af00e5032d0a68cc84879983f5d8333b"
+              name="Codecademy React"
+              linkProject="https://www.codecademy.com/profiles/vniacsta/certificates/af00e5032d0a68cc84879983f5d8333b"
               />
           </div>
           <div>
