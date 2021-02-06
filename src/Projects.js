@@ -52,9 +52,9 @@ export default class SwipeToSlide extends Component {
           <div>
             <ProjectsInfo
               image={veganpower}
-              linkImage="https://veganpower.netlify.app"
+              linkImage="https://veganpower.pt"
               name="Vegan Power"
-              linkProject="https://veganpower.netlify.app"
+              linkProject="https://veganpower.pt"
               linkGithub="https://github.com/vniacsta/veganpower-vanilla-website"
               />
           </div>
