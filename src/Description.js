@@ -18,19 +18,25 @@ export default function Description() {
         </span>
       </p>
       <p>
-        I've just finished a React workshop and I'm super excited to learn more{" "}
+        I am a daily student at Codecademy.com and I'm always super excited to learn more.{" "}
         <span role="img" aria-label="student">
           👩‍🎓
         </span>
       </p>
       <p>
         I have a degree in Marketing and Publicity, so I've always worked with
-        design and web design.
+        design and web design. 
       </p>
       <p>
-        I recently finished a course in Digital Marketing as well{" "}
+        I also did a Digital Marketing course in 2020.{" "}
         <span role="img" aria-label="digital">
           📲
+        </span>
+      </p>
+      <p>
+        Last, but not least, I'm currently doing a coding bootcamp with Academia de Código!{" "}
+        <span role="img" aria-label="travel">
+          🤯
         </span>
       </p>
       <p>
