@@ -16,7 +16,7 @@ export default function App() {
           <img className="my-avatar" src={avatar} alt="Vania Costa" />
           <div className="right">
             <h1 className="name">Vânia Costa</h1>
-            <h3>Front-end Developer | Marketer</h3>
+            <h3>Full-Stack Developer | Marketer</h3>
           </div>
         </header>
         <section>

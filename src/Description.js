@@ -18,6 +18,13 @@ export default function Description() {
         </span>
       </p>
       <p>
+        I'm currently doing a coding bootcamp with{" "}
+        <a href="https://www.academiadecodigo.org/" target="_blank" rel="noopener noreferrer">Academia de Código</a>!{" "}
+        <span role="img" aria-label="student">
+          🤯
+        </span>
+      </p>
+      <p>
         I am a daily student at Codecademy.com and I'm always super excited to learn more.{" "}
         <span role="img" aria-label="student">
           👩‍🎓
@@ -31,12 +38,6 @@ export default function Description() {
         I also did a Digital Marketing course in 2020.{" "}
         <span role="img" aria-label="digital">
           📲
-        </span>
-      </p>
-      <p>
-        Last, but not least, I'm currently doing a coding bootcamp with Academia de Código!{" "}
-        <span role="img" aria-label="travel">
-          🤯
         </span>
       </p>
       <p>
