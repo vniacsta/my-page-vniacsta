@@ -105,15 +105,6 @@ export default class SwipeToSlide extends Component {
               linkGithub="https://github.com/vniacsta/calculate-hours"
               />
           </div>
-          <div>
-            <ProjectsInfo
-              image={ricardominacv}
-              linkImage="https://vniacsta.github.io/ricardomina-website/"
-              name="Ricardo Mina's CV"
-              linkProject="https://vniacsta.github.io/ricardomina-website/"
-              linkGithub="https://github.com/vniacsta/ricardomina-website/"
-              />
-          </div>
         </Slider>
       </div>
     );
