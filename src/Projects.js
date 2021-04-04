@@ -8,7 +8,6 @@ import quizApp from "./media/quiz-app-js.png";
 import calcularhoras from "./media/calcularhoras.png";
 import aecrru from "./media/aecrru.png";
 import phaserjs from "./media/phaserjs.png";
-import ricardominacv from "./media/ricardomina.png";
 
 export default class SwipeToSlide extends Component {
   render() {
