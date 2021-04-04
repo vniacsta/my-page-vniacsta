@@ -8,6 +8,7 @@ import quizApp from "./media/quiz-app-js.png";
 import calcularhoras from "./media/calcularhoras.png";
 import aecrru from "./media/aecrru.png";
 import phaserjs from "./media/phaserjs.png";
+import ricardominacv from "./media/ricardomina.png";
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -102,6 +103,15 @@ export default class SwipeToSlide extends Component {
               name="Calcular Horas"
               linkProject="https://calcularhoras.pt"
               linkGithub="https://github.com/vniacsta/calculate-hours"
+              />
+          </div>
+          <div>
+            <ProjectsInfo
+              image={ricardominacv}
+              linkImage="https://vniacsta.github.io/ricardomina-website/"
+              name="Ricardo Mina's CV"
+              linkProject="https://vniacsta.github.io/ricardomina-website/"
+              linkGithub="https://github.com/vniacsta/ricardomina-website/"
               />
           </div>
         </Slider>
