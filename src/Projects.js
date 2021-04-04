@@ -49,7 +49,7 @@ export default class SwipeToSlide extends Component {
     };
     return (
       <div className="Projects">
-        <h3>Check out my projects so far:</h3>
+        <h3>Check out my web projects so far:</h3>
         <Slider {...settings}>
           <div>
             <ProjectsInfo
