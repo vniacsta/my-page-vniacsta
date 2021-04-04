@@ -7,6 +7,7 @@ import weatherApp from "./media/react-weather.png";
 import quizApp from "./media/quiz-app-js.png";
 import calcularhoras from "./media/calcularhoras.png";
 import aecrru from "./media/aecrru.png";
+import phaserjs from "./media/phaserjs.png";
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -60,6 +61,24 @@ export default class SwipeToSlide extends Component {
           </div>
           <div>
             <ProjectsInfo
+              image={phaserjs}
+              linkImage="https://vniacsta.github.io/my-phaser-games/"
+              name="My PhaserJS games"
+              linkProject="https://vniacsta.github.io/my-phaser-games/"
+              linkGithub="https://github.com/vniacsta/my-phaser-games"
+              />
+          </div>
+          <div>
+            <ProjectsInfo
+              image={aecrru}
+              linkImage="https://www.aecrru.pt/"
+              name="AECRRU | Construction company website"
+              linkProject="https://www.aecrru.pt/"
+              linkGithub="https://github.com/vniacsta/js-website-aecrru"
+              />
+          </div>
+          <div>
+            <ProjectsInfo
               image={weatherApp}
               linkImage="https://react-app-project-vniacsta.netlify.app/"
               name="Weather App React"
@@ -83,15 +102,6 @@ export default class SwipeToSlide extends Component {
               name="Calcular Horas"
               linkProject="https://calcularhoras.pt"
               linkGithub="https://github.com/vniacsta/calculate-hours"
-              />
-          </div>
-          <div>
-            <ProjectsInfo
-              image={aecrru}
-              linkImage="https://www.aecrru.pt/"
-              name="AECRRU | Construction company website"
-              linkProject="https://www.aecrru.pt/"
-              linkGithub="https://github.com/vniacsta/js-website-aecrru"
               />
           </div>
         </Slider>
