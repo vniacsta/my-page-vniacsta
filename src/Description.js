@@ -18,7 +18,7 @@ export default function Description() {
         </span>
       </p>
       <p>
-        I'm currently doing a coding bootcamp with{" "}
+        I just finished a Full-Stack Software Developer bootcamp with{" "}
         <a href="https://www.academiadecodigo.org/" target="_blank" rel="noopener noreferrer">Academia de Código</a>!{" "}
         <span role="img" aria-label="student">
           🤯
