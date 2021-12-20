@@ -12,7 +12,7 @@ export default function SocialMedia() {
     return (
         <div className='SocialMedia'>
             <a
-                href='mailto:vaniarcosta26@gmail.com'
+                href='mailto:hello@vniacsta.pt'
                 target='_blank'
                 rel='noopener noreferrer'
             >

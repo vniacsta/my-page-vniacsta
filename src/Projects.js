@@ -47,62 +47,62 @@ export default class SwipeToSlide extends Component {
       ]
     };
     return (
-      <div className="Projects">
+      <div className='Projects'>
         <h3>Check out some of my front-end projects:</h3>
         <Slider {...settings}>
           <div>
             <ProjectsInfo
               image={veganpower}
-              linkImage="https://veganpower.pt"
-              name="Vegan Power"
-              linkProject="https://veganpower.pt"
-              linkGithub="https://github.com/vniacsta/veganpower-vanilla-website"
-              />
+              linkImage='https://veganpower.netlify.app/'
+              name='Vegan Power'
+              linkProject='https://veganpower.netlify.app/'
+              linkGithub='https://github.com/vniacsta/veganpower-vanilla-website'
+            />
           </div>
           <div>
             <ProjectsInfo
               image={phaserjs}
-              linkImage="https://vniacsta.github.io/my-phaser-games/"
-              name="My PhaserJS games"
-              linkProject="https://vniacsta.github.io/my-phaser-games/"
-              linkGithub="https://github.com/vniacsta/my-phaser-games"
-              />
+              linkImage='https://vniacsta.github.io/my-phaser-games/'
+              name='My PhaserJS games'
+              linkProject='https://vniacsta.github.io/my-phaser-games/'
+              linkGithub='https://github.com/vniacsta/my-phaser-games'
+            />
           </div>
           <div>
             <ProjectsInfo
               image={aecrru}
-              linkImage="https://www.aecrru.pt/"
-              name="AECRRU | Construction company website"
-              linkProject="https://www.aecrru.pt/"
-              linkGithub="https://github.com/vniacsta/js-website-aecrru"
-              />
+              linkImage='https://www.aecrru.pt/'
+              name='AECRRU | Construction company website'
+              linkProject='https://www.aecrru.pt/'
+              linkGithub='https://github.com/vniacsta/js-website-aecrru'
+            />
           </div>
           <div>
             <ProjectsInfo
               image={weatherApp}
-              linkImage="https://react-app-project-vniacsta.netlify.app/"
-              name="Weather App React"
-              linkProject="https://react-app-project-vniacsta.netlify.app/"
-              linkGithub="https://github.com/vniacsta/react-app-project"
-              />
+              linkImage='https://react-app-project-vniacsta.netlify.app/'
+              name='Weather App React'
+              linkProject='https://react-app-project-vniacsta.netlify.app/'
+              linkGithub='https://github.com/vniacsta/react-app-project'
+            />
           </div>
           <div>
             <ProjectsInfo
               image={quizApp}
-              linkImage="https://quiz-app-javascript-vniacsta.netlify.app/"
-              name="Quiz App Javascript"
-              linkProject="https://quiz-app-javascript-vniacsta.netlify.app/"
-              linkGithub="https://github.com/vniacsta/js-quiz-lordoftherings"
-              />
+              linkImage='https://quiz-app-javascript-vniacsta.netlify.app/'
+              name='Quiz App Javascript'
+              linkProject='https://quiz-app-javascript-vniacsta.netlify.app/'
+              linkGithub='https://github.com/vniacsta/js-quiz-lordoftherings'
+            />
           </div>
           <div>
             <ProjectsInfo
               image={calcularhoras}
-              linkImage="https://calcularhoras.pt"
-              name="Calcular Horas"
-              linkProject="https://calcularhoras.pt"
-              linkGithub="https://github.com/vniacsta/calculate-hours"
-              />
+              linkImage='https://calcular-horas.netlify.app/'
+              name='Calcular Horas'
+              linkProject='https://calcular-horas.netlify.app/'
+              linkGithub='https://github.com/vniacsta/calculate-hours'
+            />
           </div>
         </Slider>
       </div>
