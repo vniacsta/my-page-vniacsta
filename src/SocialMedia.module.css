@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.root a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.root a:hover {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}

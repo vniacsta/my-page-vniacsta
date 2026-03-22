@@ -2,10 +2,9 @@
 
 https://vniacsta.netlify.app/
 
-Where I display my projects and my certificates in web and software development.
+Where I display my projects and my contacts.
 
-If you want to ask me any questions, just contact me!
+If you want to ask me any questions, get in touch!
 
 Thanks,  
-With love,  
-vniacsta
+Vânia Costa Mendes
