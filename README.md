@@ -1,6 +1,6 @@
 ### ** This is my personal page **
 
-https://vniacsta.netlify.app/
+https://vaniacostamendes.pt
 
 Where I display my projects and my contacts.
 
