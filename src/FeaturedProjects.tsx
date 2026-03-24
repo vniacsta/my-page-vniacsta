@@ -1,5 +1,6 @@
 import styles from "./FeaturedProjects.module.css";
 import kitcheneraLogo from "./media/kitchenera.png";
+import giftosLogo from "./media/giftos.svg";
 
 const projects = [
   {
@@ -8,6 +9,13 @@ const projects = [
     description:
       "Meal planning, shopping lists, and inventory tracking — with an AI kitchen assistant you can chat with in natural language.",
     url: "https://kitchenera.app/",
+  },
+  {
+    name: "Giftos",
+    logo: giftosLogo,
+    description:
+      "Effortless gift exchanges — one person sets it up, everyone gets their match by email. No apps, no accounts, just the joy of giving.",
+    url: "https://giftos.pt/",
   },
 ];
 
