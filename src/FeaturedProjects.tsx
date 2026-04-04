@@ -23,7 +23,7 @@ const projects = [
     logo: planzapLogo,
     description:
       "Class scheduling and booking platform for gyms and fitness studios — manage classes, members, and attendance all in one place.",
-    url: "https://planzap.up.railway.app/",
+    url: "https://planzap.vaniacostamendes.pt/",
   },
 ];
 
