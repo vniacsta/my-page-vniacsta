@@ -1,6 +1,7 @@
 import styles from "./FeaturedProjects.module.css";
 import kitcheneraLogo from "./media/kitchenera.png";
 import giftosLogo from "./media/giftos.svg";
+import planzapLogo from "./media/planzap.svg";
 
 const projects = [
   {
@@ -16,6 +17,13 @@ const projects = [
     description:
       "Effortless gift exchanges — one person sets it up, everyone gets their match by email. No apps, no accounts, just the joy of giving.",
     url: "https://giftos.pt/",
+  },
+  {
+    name: "PlanZap",
+    logo: planzapLogo,
+    description:
+      "Class scheduling and booking platform for gyms and fitness studios — manage classes, members, and attendance all in one place.",
+    url: "https://planzap.up.railway.app/",
   },
 ];
 
