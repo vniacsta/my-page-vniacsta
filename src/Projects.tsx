@@ -50,7 +50,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className={styles.root}>
-      <h2 className={styles.heading}>Older Projects</h2>
+      <h2 className={styles.heading}>Earlier Work</h2>
       <div className={styles.list}>
         {projects.map((project) => (
           <ProjectsInfo key={project.name} {...project} />

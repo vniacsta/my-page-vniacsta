@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vânia Costa Mendes — CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      :root {
+        --text: #111;
+        --secondary: #555;
+        --accent: #a64d78;
+        --border: #e0e0e0;
+        --page-width: 760px;
+      }
+
+      body {
+        font-family: "Space Grotesk", system-ui, sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--text);
+        background: #fff;
+        padding: 48px 24px;
+      }
+
+      main {
+        max-width: var(--page-width);
+        margin: 0 auto;
+      }
+
+      /* ── Header ── */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 24px;
+        padding-bottom: 28px;
+        border-bottom: 2px solid var(--text);
+        margin-bottom: 32px;
+      }
+
+      .name-block h1 {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+      }
+
+      .name-block .title {
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--accent);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-top: 6px;
+      }
+
+      .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 3px;
+        font-size: 13px;
+        color: var(--secondary);
+      }
+
+      .contact a {
+        color: var(--secondary);
+        text-decoration: none;
+      }
+
+      .contact a:hover { color: var(--accent); }
+
+      /* ── Sections ── */
+      section {
+        margin-bottom: 28px;
+      }
+
+      section h2 {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 14px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      /* ── About ── */
+      .about p {
+        color: var(--secondary);
+        max-width: 660px;
+      }
+
+      /* ── Experience entries ── */
+      .entry {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 1px 16px;
+        margin-bottom: 22px;
+      }
+
+      .entry:last-child { margin-bottom: 0; }
+
+      .entry-title {
+        font-weight: 600;
+        font-size: 15px;
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      .entry-dates {
+        font-size: 12px;
+        color: var(--secondary);
+        white-space: nowrap;
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 3px;
+      }
+
+      .entry-subtitle {
+        font-size: 13px;
+        color: var(--secondary);
+        font-style: italic;
+        grid-column: 1;
+        grid-row: 2;
+        margin-bottom: 6px;
+      }
+
+      .entry-summary {
+        grid-column: 1 / -1;
+        color: var(--secondary);
+        margin-bottom: 6px;
+      }
+
+      .entry ul {
+        grid-column: 1 / -1;
+        padding-left: 16px;
+        color: var(--secondary);
+      }
+
+      .entry ul li { margin-bottom: 4px; }
+
+      /* ── Projects ── */
+      .project {
+        margin-bottom: 16px;
+      }
+
+      .project:last-child { margin-bottom: 0; }
+
+      .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 16px;
+      }
+
+      .project-name {
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      .project-meta {
+        font-size: 12px;
+        color: var(--accent);
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        white-space: nowrap;
+      }
+
+      .project-url {
+        font-size: 12px;
+        color: var(--secondary);
+        text-decoration: none;
+        font-style: italic;
+      }
+
+      .project-url:hover { color: var(--accent); }
+
+      .project-desc {
+        margin-top: 4px;
+        color: var(--secondary);
+      }
+
+      /* ── Skills ── */
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 32px;
+      }
+
+      .skill-group h3 {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text);
+        margin-bottom: 2px;
+        letter-spacing: 0.03em;
+      }
+
+      .skill-group p {
+        font-size: 13px;
+        color: var(--secondary);
+      }
+
+      /* ── Education ── */
+      .edu-entry {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 1px 16px;
+        margin-bottom: 14px;
+      }
+
+      .edu-entry:last-child { margin-bottom: 0; }
+
+      .edu-title {
+        font-weight: 600;
+        font-size: 14px;
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      .edu-dates {
+        font-size: 12px;
+        color: var(--secondary);
+        white-space: nowrap;
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 2px;
+      }
+
+      .edu-subtitle {
+        font-size: 13px;
+        color: var(--secondary);
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      /* ── Certificates ── */
+      .cert-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 24px;
+      }
+
+      .cert-list li {
+        font-size: 13px;
+        color: var(--secondary);
+        padding-left: 12px;
+        position: relative;
+      }
+
+      .cert-list li::before {
+        content: "–";
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+      }
+
+      /* ── Languages ── */
+      .lang-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 24px;
+        font-size: 13px;
+        color: var(--secondary);
+      }
+
+      .lang-list span strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      /* ── Additional ── */
+      .additional p {
+        font-size: 13px;
+        color: var(--secondary);
+      }
+
+      /* ── Print ── */
+      @media print {
+        body { padding: 0; font-size: 13px; }
+        main { max-width: 100%; }
+        a { color: inherit !important; text-decoration: none; }
+        section { page-break-inside: avoid; }
+      }
+
+      @page {
+        margin: 18mm 16mm;
+        size: A4;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+
+      <header>
+        <div class="name-block">
+          <h1>Vânia Costa Mendes</h1>
+          <p class="title">AI Full-Stack Engineer</p>
+        </div>
+        <div class="contact">
+          <a href="mailto:vaniacostamendes@pm.me">vaniacostamendes@pm.me</a>
+          <a href="https://vaniacostamendes.pt" target="_blank">vaniacostamendes.pt</a>
+          <a href="https://linkedin.com/in/vaniacostamendes" target="_blank">linkedin.com/in/vaniacostamendes</a>
+          <a href="https://github.com/vniacsta" target="_blank">github.com/vniacsta</a>
+<span>Santa Maria da Feira, Portugal</span>
+        </div>
+      </header>
+
+      <section class="about">
+        <h2>About</h2>
+        <p>
+          AI full-stack engineer with 5+ years building internal platforms and web products. From frontend roots to
+          end-to-end delivery — combines startup speed, practical AI focus, and strong experience in architecture,
+          design systems, workflow tooling, and shipping independently.
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+
+        <div class="entry">
+          <span class="entry-title">Software Developer</span>
+          <span class="entry-dates">Nov 2022 — Present</span>
+          <span class="entry-subtitle">HN Services Portugal · Porto, Portugal</span>
+          <p class="entry-summary">
+            Working on BNP Paribas CIB Services projects inside the bank's internal ecosystem, focused on platforms
+            for managing internal tasks and projects.
+          </p>
+          <ul>
+            <li>Built and maintained Angular-based frontend features for internal banking workflows; worked on micro-frontends using Angular Module Federation.</li>
+            <li>Developed reusable UI patterns and Angular Material components, including data grids, filters, pagination, time and timezone pickers, parser services, and dynamic form templates with Formly.</li>
+            <li>Integrated frontend applications with backend APIs through HTTP services; contributed to code quality through peer pull request review.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-title">Experienced Programmer / Junior Programmer</span>
+          <span class="entry-dates">May 2021 — Nov 2022</span>
+          <span class="entry-subtitle">Deloitte Tax IT · Porto, Portugal</span>
+          <p class="entry-summary">
+            Progressed from Junior to Experienced Programmer while contributing to the TAX IT frontend ecosystem.
+          </p>
+          <ul>
+            <li>Rebranded, refactored, and restyled the shared design component across the ecosystem, modernizing and standardizing frontend implementation across multiple applications.</li>
+            <li>Worked with Angular, Ruby, Ruby on Rails, MySQL, and Docker; built reusable wrappers around Angular Material components, data tables, dynamic forms, and filtering systems.</li>
+            <li>Contributed to a shared layout and design library; implemented the 7-1 Sass pattern to improve maintainability; supported the team through peer review and technology training.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-title">Frontend Developer</span>
+          <span class="entry-dates">Feb 2020 — Jan 2021</span>
+          <span class="entry-subtitle">Freelance · Porto, Portugal</span>
+          <ul>
+            <li>Developed websites and landing pages for clients, delivering frontend implementations with attention to usability, presentation, and maintainable UI structure.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-title">Technical Assistant</span>
+          <span class="entry-dates">Apr 2020</span>
+          <span class="entry-subtitle">SheCodes Workshops · Remote</span>
+          <ul>
+            <li>Supported students during their first coding experience, helping with HTML, CSS, and JavaScript questions.</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <section>
+        <h2>Selected Projects</h2>
+
+        <div class="project">
+          <div class="project-header">
+            <span class="project-name">Kitchenera</span>
+            <span class="project-meta">Solo-built · Live</span>
+          </div>
+          <a class="project-url" href="https://kitchenera.app" target="_blank">kitchenera.app</a>
+          <p class="project-desc">
+            AI-assisted product for meal planning, shopping lists, and kitchen inventory workflows. Designed and built
+            end-to-end with a focus on natural-language interaction, practical household workflow design, and
+            end-to-end product execution.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <span class="project-name">Giftos</span>
+            <span class="project-meta">Solo-built · Live</span>
+          </div>
+          <a class="project-url" href="https://giftos.pt" target="_blank">giftos.pt</a>
+          <p class="project-desc">
+            Production web application for low-friction gift exchanges. Built around an organizer-first workflow where
+            one person sets up the exchange and participants receive their match by email — emphasizing simplicity,
+            low-friction onboarding, and clear event management flows.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <span class="project-name">PlanZap</span>
+            <span class="project-meta">Solo-built · Live</span>
+          </div>
+          <a class="project-url" href="https://planzap.vaniacostamendes.pt" target="_blank">planzap.vaniacostamendes.pt</a>
+          <p class="project-desc">
+            Production booking and scheduling platform for gyms and fitness studios. Built to manage classes, members,
+            bookings, and attendance — with emphasis on operational tooling, admin workflows, and scheduling usability.
+          </p>
+        </div>
+
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <p>React, Angular, TypeScript, JavaScript, HTML, CSS, Sass, Angular Material, Formly</p>
+          </div>
+          <div class="skill-group">
+            <h3>Backend &amp; Data</h3>
+            <p>Node.js, Bun, ElysiaJS, Ruby, Ruby on Rails, Drizzle ORM, PostgreSQL, MySQL</p>
+          </div>
+          <div class="skill-group">
+            <h3>Infrastructure &amp; Tooling</h3>
+            <p>Docker, Railway, Git, GitHub, GitLab, Rsbuild, REST APIs</p>
+          </div>
+          <div class="skill-group">
+            <h3>Architecture &amp; Product</h3>
+            <p>Micro-frontends, Angular Module Federation, Frontend Architecture, UI Systems, Internal Tools, Product Ownership, AI-enabled Product Development</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="edu-entry">
+          <span class="edu-title">Full-Stack Programming Bootcamp</span>
+          <span class="edu-dates">2021</span>
+          <span class="edu-subtitle">Academia de Código</span>
+        </div>
+        <div class="edu-entry">
+          <span class="edu-title">Bachelor's Degree — Marketing</span>
+          <span class="edu-dates">2007 — 2010</span>
+          <span class="edu-subtitle">ISVOUGA</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Certificates</h2>
+        <ul class="cert-list">
+          <li>Angular Essential Training</li>
+          <li>Angular: Ecosystems</li>
+          <li>Ruby Essential Training Part 1: The Basics</li>
+          <li>Learn JavaScript Course</li>
+          <li>Critical Thinking for Better Judgment and Decision-Making</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <div class="lang-list">
+          <span><strong>Portuguese</strong> — Native</span>
+          <span><strong>English</strong> — Professional</span>
+          <span><strong>Spanish</strong> — Limited Working</span>
+          <span><strong>French</strong> — Elementary</span>
+          <span><strong>Chinese</strong> — Elementary</span>
+          <span><strong>Esperanto</strong> — Elementary</span>
+        </div>
+      </section>
+
+      <section class="additional">
+        <h2>Additional</h2>
+        <p>Prefers fully remote or hybrid work with justifiable on-site presence.</p>
+      </section>
+
+    </main>
+  </body>
+</html>

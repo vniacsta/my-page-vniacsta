@@ -41,7 +41,7 @@ export default function SocialMedia() {
   return (
     <div className={styles.root}>
       <a
-        href="mailto:vaniacostamendes@pm.com"
+        href="mailto:vaniacostamendes@pm.me"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -7,20 +7,20 @@ export default function Description() {
 
       <div className={styles.body}>
         <p>
-          Engineer with 5+ years of experience building modern web platforms and
-          scalable applications.
+          Engineer with 5+ years of experience building web products
+          end&#8209;to&#8209;end. I started in frontend and expanded into
+          full&#8209;stack development — today I own the full layer: UI,
+          backend, data model, infrastructure.
         </p>
 
         <p>
-          My career started in frontend development, but today I focus on
-          AI-driven full-stack systems, software architecture, and building
-          intelligent developer workflows.
+          I build AI&#8209;powered products and apply AI to development
+          workflows. My focus is on practical product engineering — real
+          applications, real users, real business logic. Not demos.
         </p>
 
         <p>
-          I enjoy designing systems end-to-end, combining strong engineering
-          fundamentals with modern tooling and AI-assisted development to build
-          efficient, scalable software.
+          I care about how systems are structured, not just whether they work.
         </p>
       </div>
     </div>

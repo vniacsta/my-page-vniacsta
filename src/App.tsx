@@ -21,6 +21,14 @@ export default function App() {
               <p className={styles.label}>Software Engineer</p>
               <h1 className={styles.name}>Vânia Costa Mendes</h1>
               <SocialMedia />
+              <a
+                href="/cv.html"
+                className={styles.cvLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View CV
+              </a>
             </div>
           </div>
         </header>

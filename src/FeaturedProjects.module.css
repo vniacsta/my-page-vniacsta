@@ -65,6 +65,15 @@
   color: var(--text-primary);
 }
 
+.meta {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
 .description {
   font-size: 14px;
   color: var(--text-secondary);
