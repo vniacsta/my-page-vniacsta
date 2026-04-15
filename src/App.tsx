@@ -22,7 +22,7 @@ export default function App() {
               <h1 className={styles.name}>Vânia Costa Mendes</h1>
               <SocialMedia />
               <a
-                href="/cv.html"
+                href="/cv"
                 className={styles.cvLink}
                 target="_blank"
                 rel="noopener noreferrer"
